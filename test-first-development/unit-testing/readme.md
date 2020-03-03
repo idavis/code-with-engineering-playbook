@@ -14,13 +14,13 @@ Unit tests play an integral role in building quality software and enabling agile
 
 ## Evidence and Measures
 
-The [CICD already requires badges in place](../../continuous-integration/CICD.md) for every repo to quickly assess code coverage and test pass/fail.
+The [CICD already requires badges in place](../../continuous-integration/CICD.md) for every repo to quickly assess test pass/fail.
 
 The team should also keep in an eye on tests that may not be running as part of every merge, i.e. integration and e2e test.
 
 ## General Guidance
 
-The scope of a unit test is small. Engineers should use good judgement to provide a reasonable amount of unit test based on complexity of the unit to be tested, aligning with the overall goal of 70-80% code coverage. Unit tests should exercise more than the "happy path" paying specific attention to returned error values or exceptions thrown.
+The scope of a unit test is small. Engineers should use good judgement to provide a reasonable amount of unit test based on complexity of the unit to be tested. Unit tests should exercise more than the "happy path" paying specific attention to returned error values or exceptions thrown.
 
 Bug fixes should start with a test that reliably reproduces the bug to ensure that a particular commit will fix the bug as intended. Existing tests will reduce risk of regressions introduced by the fix.
 

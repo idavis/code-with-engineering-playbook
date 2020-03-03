@@ -10,7 +10,6 @@ Below is an example Done-Done checklist you should follow to ensure everything i
 
 - Is covered by unit and integration tests YES/NO
 - Is continuously tested in each environment YES/NO
-- Does the code coverage meet the minimum threshold YES/NO
 - Is sufficient diagnostic/user telemetry and dashboarding YES/NO
 - Is sufficient public documentation YES/NO
 - Feature owner sign off YES/NO
